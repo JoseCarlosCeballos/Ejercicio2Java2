@@ -57,7 +57,7 @@ public class Ejercicio2Java2 {
                 break;
         }
         do{
-        System.out.println("Introduce la hora: ");
+        System.out.println("Introduce la hora (hh:mm): ");
         hora = sc.nextLine();
         
         parts = hora.split(":");
