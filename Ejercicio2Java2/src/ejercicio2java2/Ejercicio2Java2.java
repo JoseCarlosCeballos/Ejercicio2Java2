@@ -48,7 +48,12 @@ public class Ejercicio2Java2 {
             case "VIERNES":
                 diaint = 4;
                 break;
-            default:
+            case "SABADO":
+            case "DOMINGO":
+                System.out.println("Ya estas en el fin de semana");
+                break;
+            default: 
+                System.out.println("No sabes los dias de la semana o no sabes escribir");
                 break;
         }
         do{
